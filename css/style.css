@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+main{
+  position: relative;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -164,6 +168,108 @@ footer {
       color: #232323;
       font-size: 15px;
   }
+
+  .google-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .annee{
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid;
+    border-color: #232323;
+    height: 60px;
+    width: 200px;
+    margin-left: 820px;
+  }
+
+  .numerique{
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+  }
+
+  .graphisme{
+    margin-top: 4rem;
+    margin-bottom: 12rem;
+  }
+
+  .carre div{
+   position: absolute;
+  }
+  .grandbleu{
+    width  : 400px;
+  height : 400px;
+  background : #F8F8F8;
+  border: 8px solid;
+  border-color: #7c7cff ;
+  }
+
+  .grandrouge{
+    height: 350px;
+    width: 350px;
+    background-color: #F3F3F3;
+    border: 8px solid #Ff7575;
+  }
+
+  .petitrouge{
+    height: 150px;
+    width: 150px;
+    background-color: #F8F8F8;
+    border: 8px solid #fa8787;
+  }
+
+  .petitjaune{
+    height: 150px;
+    width: 150px;
+    background-color: #F8F8F8;
+    border: 8px solid #fff77e;
+  }
+
+  .grandjaune{
+    height: 400px;
+    width: 400px;
+    background-color: #F8F8F8;
+    border: 8px solid #fff77e;
+  }
+
+  .petitbleu{
+    height: 150px;
+    width: 150px;
+    background-color: #F8F8F8;
+    border: 8px solid #7c7cff;
+  }
+
+  .grandrouge2{
+    height: 400px;
+    width: 400px;
+    background-color: #F8F8F8;
+    border: 8px solid #fa8787;
+  }
+
+  .petitjaune2{
+    height: 100px;
+    width: 100px;
+    background-color: #F8F8F8;
+    border: 8px solid #fff77e;
+  }
+
+  .petitjaune3{
+    height: 150px;
+    width: 150px;
+    background-color: #F8F8F8;
+    border: 8px solid #fff77e;
+  }
+
+
+    
 
 /* flex */
 
